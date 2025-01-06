@@ -1,0 +1,5 @@
+2024-11-14 10:19:58,685 - INFO - ---------------------------------------inicio da execução---------------------------------------
+2024-11-14 10:19:58,685 - INFO - ====== WebDriver manager ======
+2024-11-14 10:19:59,051 - INFO - Get LATEST chromedriver version for google-chrome
+2024-11-14 10:19:59,067 - INFO - Get LATEST chromedriver version for google-chrome
+2024-11-14 10:19:59,084 - INFO - Driver [C:\Users\Usuário\.wdm\drivers\chromedriver\win64\130.0.6723.116\chromedriver-win32/chromedriver.exe] found in cache
