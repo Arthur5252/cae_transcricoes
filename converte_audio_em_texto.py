@@ -1,10 +1,10 @@
 import os
 import re
 import whisper
-import openai
+from openai import OpenAI
 import logging
 import nltk
-
+from helpers import *
 
 def transcrever_audio_whisper(caminho_audio):
     """
@@ -23,9 +23,9 @@ def extrair_numero(nome_arquivo):
 
 def resumir_texto(texto):
     prompt = f'Assuma o papel de um redator de relatórios especialista em economia.Enfatize as discussões sobre impactos econômicos e políticas públicas mencionadas na reunião.O resumo deve conter introdução, pontos principais discutidos e conclusões, se possível utilizando tópicos para melhorar a legibilidade.O texto a seguir é a transcrição de uma reunião da Comissão de Assuntos Econômicos, é uma reunião longa sobre assuntos tributários.Por favor faça um resumo de no minimo 1500 palavras desta transcrição: \n{texto}'
-    #Adicionar aqui o codigo para a chave API da open ai.
+    cliente=OpenAI(api_key= "Sua chave api aqui")
     try:
-        resposta = openai.chat.completions.create(
+        resposta = cliente.chat.completions.create(
             model="gpt-4o-mini",  # ou "gpt-4"
             messages=[
                 {"role": "user", "content": prompt}
@@ -71,3 +71,4 @@ def transcrever_pasta(pasta_entrada, arquivo_saida):
         f.write(resumo)
     logging.info(f"-----------------------------Resumo das transcrições salvo em: {arquivo_saida}-----------------------------")
     print(f"-----------------------------Resumo das transcrições salvo em: {arquivo_saida}-----------------------------")
+    return resumo

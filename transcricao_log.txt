@@ -1,5 +1,264 @@
-2024-11-14 10:19:58,685 - INFO - ---------------------------------------inicio da execução---------------------------------------
-2024-11-14 10:19:58,685 - INFO - ====== WebDriver manager ======
-2024-11-14 10:19:59,051 - INFO - Get LATEST chromedriver version for google-chrome
-2024-11-14 10:19:59,067 - INFO - Get LATEST chromedriver version for google-chrome
-2024-11-14 10:19:59,084 - INFO - Driver [C:\Users\Usuário\.wdm\drivers\chromedriver\win64\130.0.6723.116\chromedriver-win32/chromedriver.exe] found in cache
+2025-01-21 16:24:54,237 - INFO - ---------------------------------------inicio da execução---------------------------------------
+2025-01-21 16:24:54,237 - INFO - ====== WebDriver manager ======
+2025-01-21 16:24:54,680 - INFO - Get LATEST chromedriver version for google-chrome
+2025-01-21 16:24:54,692 - INFO - Get LATEST chromedriver version for google-chrome
+2025-01-21 16:24:54,703 - INFO - Driver [C:\Users\Usuário\.wdm\drivers\chromedriver\win64\131.0.6778.264\chromedriver-win32/chromedriver.exe] found in cache
+2025-01-21 16:25:05,662 - INFO - URLs extraídas: ['https://www12.senado.leg.br/portalcedoc/pcedoc/2024/20241217/20241217102801_1904672.MP4', 'https://www12.senado.leg.br/portalcedoc/pcedoc/2024/20241217/20241217103005_1904678.MP4', 'https://www12.senado.leg.br/portalcedoc/pcedoc/2024/20241217/20241217103404_1904687.MP4', 'https://www12.senado.leg.br/portalcedoc/pcedoc/2024/20241217/20241217103701_1904693.MP4', 'https://www12.senado.leg.br/portalcedoc/pcedoc/2024/20241217/20241217103801_1904699.MP4', 'https://www12.senado.leg.br/portalcedoc/pcedoc/2024/20241217/20241217103904_1904702.MP4', 'https://www12.senado.leg.br/portalcedoc/pcedoc/2024/20241217/20241217104201_1904711.MP4', 'https://www12.senado.leg.br/portalcedoc/pcedoc/2024/20241217/20241217104304_1904717.MP4', 'https://www12.senado.leg.br/portalcedoc/pcedoc/2024/20241217/20241217104405_1904723.MP4', 'https://www12.senado.leg.br/portalcedoc/pcedoc/2024/20241217/20241217104601_1904729.MP4', 'https://www12.senado.leg.br/portalcedoc/pcedoc/2024/20241217/20241217104701_1904732.MP4', 'https://www12.senado.leg.br/portalcedoc/pcedoc/2024/20241217/20241217105001_1904738.MP4', 'https://www12.senado.leg.br/portalcedoc/pcedoc/2024/20241217/20241217105203_1904747.MP4', 'https://www12.senado.leg.br/portalcedoc/pcedoc/2024/20241217/20241217105401_1904750.MP4', 'https://www12.senado.leg.br/portalcedoc/pcedoc/2024/20241217/20241217110504_1904774.MP4', 'https://www12.senado.leg.br/portalcedoc/pcedoc/2024/20241217/20241217110701_1904780.MP4', 'https://www12.senado.leg.br/portalcedoc/pcedoc/2024/20241217/20241217110801_1904783.MP4', 'https://www12.senado.leg.br/portalcedoc/pcedoc/2024/20241217/20241217110904_1904786.MP4', 'https://www12.senado.leg.br/portalcedoc/pcedoc/2024/20241217/20241217111101_1904792.MP4', 'https://www12.senado.leg.br/portalcedoc/pcedoc/2024/20241217/20241217111202_1904795.MP4', 'https://www12.senado.leg.br/portalcedoc/pcedoc/2024/20241217/20241217111405_1904798.MP4', 'https://www12.senado.leg.br/portalcedoc/pcedoc/2024/20241217/20241217111601_1904809.MP4', 'https://www12.senado.leg.br/portalcedoc/pcedoc/2024/20241217/20241217111601_1904810.MP4', 'https://www12.senado.leg.br/portalcedoc/pcedoc/2024/20241217/20241217111803_1904813.MP4', 'https://www12.senado.leg.br/portalcedoc/pcedoc/2024/20241217/20241217112001_1904822.MP4', 'https://www12.senado.leg.br/portalcedoc/pcedoc/2024/20241217/20241217112502_1904825.MP4', 'https://www12.senado.leg.br/portalcedoc/pcedoc/2024/20241217/20241217112901_1904840.MP4', 'https://www12.senado.leg.br/portalcedoc/pcedoc/2024/20241217/20241217113004_1904843.MP4', 'https://www12.senado.leg.br/portalcedoc/pcedoc/2024/20241217/20241217113201_1904846.MP4', 'https://www12.senado.leg.br/portalcedoc/pcedoc/2024/20241217/20241217113302_1904849.MP4', 'https://www12.senado.leg.br/portalcedoc/pcedoc/2024/20241217/20241217113404_1904852.MP4', 'https://www12.senado.leg.br/portalcedoc/pcedoc/2024/20241217/20241217113504_1904858.MP4', 'https://www12.senado.leg.br/portalcedoc/pcedoc/2024/20241217/20241217114604_1904882.MP4', 'https://www12.senado.leg.br/portalcedoc/pcedoc/2024/20241217/20241217114801_1904888.MP4', 'https://www12.senado.leg.br/portalcedoc/pcedoc/2024/20241217/20241217115004_1904897.MP4', 'https://www12.senado.leg.br/portalcedoc/pcedoc/2024/20241217/20241217115201_1904903.MP4', 'https://www12.senado.leg.br/portalcedoc/pcedoc/2024/20241217/20241217115301_1904915.MP4', 'https://www12.senado.leg.br/portalcedoc/pcedoc/2024/20241217/20241217115403_1904918.MP4', 'https://www12.senado.leg.br/portalcedoc/pcedoc/2024/20241217/20241217120206_1904927.MP4', 'https://www12.senado.leg.br/portalcedoc/pcedoc/2024/20241217/20241217120604_1904939.MP4', 'https://www12.senado.leg.br/portalcedoc/pcedoc/2024/20241217/20241217120801_1904942.MP4', 'https://www12.senado.leg.br/portalcedoc/pcedoc/2024/20241217/20241217121403_1904972.MP4', 'https://www12.senado.leg.br/portalcedoc/pcedoc/2024/20241217/20241217121701_1904978.MP4', 'https://www12.senado.leg.br/portalcedoc/pcedoc/2024/20241217/20241217121803_1904981.MP4', 'https://www12.senado.leg.br/portalcedoc/pcedoc/2024/20241217/20241217122001_1904986.MP4', 'https://www12.senado.leg.br/portalcedoc/pcedoc/2024/20241217/20241217122001_1904987.MP4', 'https://www12.senado.leg.br/portalcedoc/pcedoc/2024/20241217/20241217122101_1904990.MP4', 'https://www12.senado.leg.br/portalcedoc/pcedoc/2024/20241217/20241217122203_1904996.MP4', 'https://www12.senado.leg.br/portalcedoc/pcedoc/2024/20241217/20241217122401_1905002.MP4', 'https://www12.senado.leg.br/portalcedoc/pcedoc/2024/20241217/20241217122501_1905008.MP4', 'https://www12.senado.leg.br/portalcedoc/pcedoc/2024/20241217/20241217122902_1905020.MP4', 'https://www12.senado.leg.br/portalcedoc/pcedoc/2024/20241217/20241217123205_1905026.MP4', 'https://www12.senado.leg.br/portalcedoc/pcedoc/2024/20241217/20241217123302_1905032.MP4', 'https://www12.senado.leg.br/portalcedoc/pcedoc/2024/20241217/20241217123404_1905041.MP4', 'https://www12.senado.leg.br/portalcedoc/pcedoc/2024/20241217/20241217123601_1905047.MP4', 'https://www12.senado.leg.br/portalcedoc/pcedoc/2024/20241217/20241217124101_1905071.MP4', 'https://www12.senado.leg.br/portalcedoc/pcedoc/2024/20241217/20241217124201_1905083.MP4', 'https://www12.senado.leg.br/portalcedoc/pcedoc/2024/20241219/20241219100701_1907195.MP4', 'https://www12.senado.leg.br/portalcedoc/pcedoc/2024/20241217/20241217102801_1904672.MP4', 'https://www12.senado.leg.br/portalcedoc/pcedoc/2024/20241217/20241217103005_1904678.MP4', 'https://www12.senado.leg.br/portalcedoc/pcedoc/2024/20241217/20241217103404_1904687.MP4', 'https://www12.senado.leg.br/portalcedoc/pcedoc/2024/20241217/20241217103701_1904693.MP4', 'https://www12.senado.leg.br/portalcedoc/pcedoc/2024/20241217/20241217103801_1904699.MP4', 'https://www12.senado.leg.br/portalcedoc/pcedoc/2024/20241217/20241217103904_1904702.MP4', 'https://www12.senado.leg.br/portalcedoc/pcedoc/2024/20241217/20241217104201_1904711.MP4', 'https://www12.senado.leg.br/portalcedoc/pcedoc/2024/20241217/20241217104304_1904717.MP4', 'https://www12.senado.leg.br/portalcedoc/pcedoc/2024/20241217/20241217104405_1904723.MP4', 'https://www12.senado.leg.br/portalcedoc/pcedoc/2024/20241217/20241217104601_1904729.MP4', 'https://www12.senado.leg.br/portalcedoc/pcedoc/2024/20241217/20241217104701_1904732.MP4', 'https://www12.senado.leg.br/portalcedoc/pcedoc/2024/20241217/20241217105001_1904738.MP4', 'https://www12.senado.leg.br/portalcedoc/pcedoc/2024/20241217/20241217105203_1904747.MP4', 'https://www12.senado.leg.br/portalcedoc/pcedoc/2024/20241217/20241217105401_1904750.MP4', 'https://www12.senado.leg.br/portalcedoc/pcedoc/2024/20241217/20241217110504_1904774.MP4', 'https://www12.senado.leg.br/portalcedoc/pcedoc/2024/20241217/20241217110701_1904780.MP4', 'https://www12.senado.leg.br/portalcedoc/pcedoc/2024/20241217/20241217110801_1904783.MP4', 'https://www12.senado.leg.br/portalcedoc/pcedoc/2024/20241217/20241217110904_1904786.MP4', 'https://www12.senado.leg.br/portalcedoc/pcedoc/2024/20241217/20241217111101_1904792.MP4', 'https://www12.senado.leg.br/portalcedoc/pcedoc/2024/20241217/20241217111202_1904795.MP4', 'https://www12.senado.leg.br/portalcedoc/pcedoc/2024/20241217/20241217111405_1904798.MP4', 'https://www12.senado.leg.br/portalcedoc/pcedoc/2024/20241217/20241217111601_1904809.MP4', 'https://www12.senado.leg.br/portalcedoc/pcedoc/2024/20241217/20241217111601_1904810.MP4', 'https://www12.senado.leg.br/portalcedoc/pcedoc/2024/20241217/20241217111803_1904813.MP4', 'https://www12.senado.leg.br/portalcedoc/pcedoc/2024/20241217/20241217112001_1904822.MP4', 'https://www12.senado.leg.br/portalcedoc/pcedoc/2024/20241217/20241217112502_1904825.MP4', 'https://www12.senado.leg.br/portalcedoc/pcedoc/2024/20241217/20241217112901_1904840.MP4', 'https://www12.senado.leg.br/portalcedoc/pcedoc/2024/20241217/20241217113004_1904843.MP4', 'https://www12.senado.leg.br/portalcedoc/pcedoc/2024/20241217/20241217113201_1904846.MP4', 'https://www12.senado.leg.br/portalcedoc/pcedoc/2024/20241217/20241217113302_1904849.MP4', 'https://www12.senado.leg.br/portalcedoc/pcedoc/2024/20241217/20241217113404_1904852.MP4', 'https://www12.senado.leg.br/portalcedoc/pcedoc/2024/20241217/20241217113504_1904858.MP4', 'https://www12.senado.leg.br/portalcedoc/pcedoc/2024/20241217/20241217114604_1904882.MP4', 'https://www12.senado.leg.br/portalcedoc/pcedoc/2024/20241217/20241217114801_1904888.MP4', 'https://www12.senado.leg.br/portalcedoc/pcedoc/2024/20241217/20241217115004_1904897.MP4', 'https://www12.senado.leg.br/portalcedoc/pcedoc/2024/20241217/20241217115201_1904903.MP4', 'https://www12.senado.leg.br/portalcedoc/pcedoc/2024/20241217/20241217115301_1904915.MP4', 'https://www12.senado.leg.br/portalcedoc/pcedoc/2024/20241217/20241217115403_1904918.MP4', 'https://www12.senado.leg.br/portalcedoc/pcedoc/2024/20241217/20241217120206_1904927.MP4', 'https://www12.senado.leg.br/portalcedoc/pcedoc/2024/20241217/20241217120604_1904939.MP4', 'https://www12.senado.leg.br/portalcedoc/pcedoc/2024/20241217/20241217120801_1904942.MP4', 'https://www12.senado.leg.br/portalcedoc/pcedoc/2024/20241217/20241217121403_1904972.MP4', 'https://www12.senado.leg.br/portalcedoc/pcedoc/2024/20241217/20241217121701_1904978.MP4', 'https://www12.senado.leg.br/portalcedoc/pcedoc/2024/20241217/20241217121803_1904981.MP4', 'https://www12.senado.leg.br/portalcedoc/pcedoc/2024/20241217/20241217122001_1904986.MP4', 'https://www12.senado.leg.br/portalcedoc/pcedoc/2024/20241217/20241217122001_1904987.MP4', 'https://www12.senado.leg.br/portalcedoc/pcedoc/2024/20241217/20241217122101_1904990.MP4', 'https://www12.senado.leg.br/portalcedoc/pcedoc/2024/20241217/20241217122203_1904996.MP4', 'https://www12.senado.leg.br/portalcedoc/pcedoc/2024/20241217/20241217122401_1905002.MP4', 'https://www12.senado.leg.br/portalcedoc/pcedoc/2024/20241217/20241217122501_1905008.MP4', 'https://www12.senado.leg.br/portalcedoc/pcedoc/2024/20241217/20241217122902_1905020.MP4', 'https://www12.senado.leg.br/portalcedoc/pcedoc/2024/20241217/20241217123205_1905026.MP4', 'https://www12.senado.leg.br/portalcedoc/pcedoc/2024/20241217/20241217123302_1905032.MP4', 'https://www12.senado.leg.br/portalcedoc/pcedoc/2024/20241217/20241217123404_1905041.MP4', 'https://www12.senado.leg.br/portalcedoc/pcedoc/2024/20241217/20241217123601_1905047.MP4', 'https://www12.senado.leg.br/portalcedoc/pcedoc/2024/20241217/20241217124101_1905071.MP4', 'https://www12.senado.leg.br/portalcedoc/pcedoc/2024/20241217/20241217124201_1905083.MP4', 'https://www12.senado.leg.br/portalcedoc/pcedoc/2024/20241219/20241219100701_1907195.MP4']
+2025-01-21 16:25:06,032 - INFO - Vídeo baixado com sucesso: C:\Users\Arthur\1_Projetos_Octopus\EAD\cae_transcricoes\arquivos_mp4\video.mp4
+2025-01-21 16:25:09,346 - ERROR - Erro ao baixar vídeo de https://www.youtube.com/embed/9sj5GVbFWGI: Failed to load audio: ffmpeg version 7.1-full_build-www.gyan.dev Copyright (c) 2000-2024 the FFmpeg developers
+  built with gcc 14.2.0 (Rev1, Built by MSYS2 project)
+  configuration: --enable-gpl --enable-version3 --enable-static --disable-w32threads --disable-autodetect --enable-fontconfig --enable-iconv --enable-gnutls --enable-libxml2 --enable-gmp --enable-bzlib --enable-lzma --enable-libsnappy --enable-zlib --enable-librist --enable-libsrt --enable-libssh --enable-libzmq --enable-avisynth --enable-libbluray --enable-libcaca --enable-sdl2 --enable-libaribb24 --enable-libaribcaption --enable-libdav1d --enable-libdavs2 --enable-libopenjpeg --enable-libquirc --enable-libuavs3d --enable-libxevd --enable-libzvbi --enable-libqrencode --enable-librav1e --enable-libsvtav1 --enable-libvvenc --enable-libwebp --enable-libx264 --enable-libx265 --enable-libxavs2 --enable-libxeve --enable-libxvid --enable-libaom --enable-libjxl --enable-libvpx --enable-mediafoundation --enable-libass --enable-frei0r --enable-libfreetype --enable-libfribidi --enable-libharfbuzz --enable-liblensfun --enable-libvidstab --enable-libvmaf --enable-libzimg --enable-amf --enable-cuda-llvm --enable-cuvid --enable-dxva2 --enable-d3d11va --enable-d3d12va --enable-ffnvcodec --enable-libvpl --enable-nvdec --enable-nvenc --enable-vaapi --enable-libshaderc --enable-vulkan --enable-libplacebo --enable-opencl --enable-libcdio --enable-libgme --enable-libmodplug --enable-libopenmpt --enable-libopencore-amrwb --enable-libmp3lame --enable-libshine --enable-libtheora --enable-libtwolame --enable-libvo-amrwbenc --enable-libcodec2 --enable-libilbc --enable-libgsm --enable-liblc3 --enable-libopencore-amrnb --enable-libopus --enable-libspeex --enable-libvorbis --enable-ladspa --enable-libbs2b --enable-libflite --enable-libmysofa --enable-librubberband --enable-libsoxr --enable-chromaprint
+  libavutil      59. 39.100 / 59. 39.100
+  libavcodec     61. 19.100 / 61. 19.100
+  libavformat    61.  7.100 / 61.  7.100
+  libavdevice    61.  3.100 / 61.  3.100
+  libavfilter    10.  4.100 / 10.  4.100
+  libswscale      8.  3.100 /  8.  3.100
+  libswresample   5.  3.100 /  5.  3.100
+  libpostproc    58.  3.100 / 58.  3.100
+[mov,mp4,m4a,3gp,3g2,mj2 @ 0000025497d1aac0] Format mov,mp4,m4a,3gp,3g2,mj2 detected only with low score of 1, misdetection possible!
+[mov,mp4,m4a,3gp,3g2,mj2 @ 0000025497d1aac0] moov atom not found
+[in#0 @ 0000025497d00280] Error opening input: Invalid data found when processing input
+Error opening input file C:\Users\Arthur\1_Projetos_Octopus\EAD\cae_transcricoes\arquivos_mp4\video.mp4.
+Error opening input files: Invalid data found when processing input
+
+2025-01-21 16:25:11,523 - INFO - Vídeo baixado com sucesso: C:\Users\Arthur\1_Projetos_Octopus\EAD\cae_transcricoes\arquivos_mp4\video.mp4
+2025-01-21 16:25:21,240 - INFO - Vídeo transcrito
+2025-01-21 16:25:25,122 - INFO - Vídeo baixado com sucesso: C:\Users\Arthur\1_Projetos_Octopus\EAD\cae_transcricoes\arquivos_mp4\video.mp4
+2025-01-21 16:25:42,448 - INFO - Vídeo transcrito
+2025-01-21 16:26:09,407 - INFO - Vídeo baixado com sucesso: C:\Users\Arthur\1_Projetos_Octopus\EAD\cae_transcricoes\arquivos_mp4\video.mp4
+2025-01-21 16:26:51,052 - INFO - Vídeo transcrito
+2025-01-21 16:26:58,280 - INFO - Vídeo baixado com sucesso: C:\Users\Arthur\1_Projetos_Octopus\EAD\cae_transcricoes\arquivos_mp4\video.mp4
+2025-01-21 16:27:08,710 - INFO - Vídeo transcrito
+2025-01-21 16:27:19,149 - INFO - Vídeo baixado com sucesso: C:\Users\Arthur\1_Projetos_Octopus\EAD\cae_transcricoes\arquivos_mp4\video.mp4
+2025-01-21 16:27:37,018 - INFO - Vídeo transcrito
+2025-01-21 16:27:38,443 - INFO - Vídeo baixado com sucesso: C:\Users\Arthur\1_Projetos_Octopus\EAD\cae_transcricoes\arquivos_mp4\video.mp4
+2025-01-21 16:27:47,224 - INFO - Vídeo transcrito
+2025-01-21 16:27:50,800 - INFO - Vídeo baixado com sucesso: C:\Users\Arthur\1_Projetos_Octopus\EAD\cae_transcricoes\arquivos_mp4\video.mp4
+2025-01-21 16:28:09,030 - INFO - Vídeo transcrito
+2025-01-21 16:28:14,188 - INFO - Vídeo baixado com sucesso: C:\Users\Arthur\1_Projetos_Octopus\EAD\cae_transcricoes\arquivos_mp4\video.mp4
+2025-01-21 16:28:21,870 - INFO - Vídeo transcrito
+2025-01-21 16:28:24,713 - INFO - Vídeo baixado com sucesso: C:\Users\Arthur\1_Projetos_Octopus\EAD\cae_transcricoes\arquivos_mp4\video.mp4
+2025-01-21 16:28:37,368 - INFO - Vídeo transcrito
+2025-01-21 16:28:40,404 - INFO - Vídeo baixado com sucesso: C:\Users\Arthur\1_Projetos_Octopus\EAD\cae_transcricoes\arquivos_mp4\video.mp4
+2025-01-21 16:28:48,812 - INFO - Vídeo transcrito
+2025-01-21 16:28:53,685 - INFO - Vídeo baixado com sucesso: C:\Users\Arthur\1_Projetos_Octopus\EAD\cae_transcricoes\arquivos_mp4\video.mp4
+2025-01-21 16:29:06,222 - INFO - Vídeo transcrito
+2025-01-21 16:29:16,986 - INFO - Vídeo baixado com sucesso: C:\Users\Arthur\1_Projetos_Octopus\EAD\cae_transcricoes\arquivos_mp4\video.mp4
+2025-01-21 16:30:03,634 - INFO - Vídeo transcrito
+2025-01-21 16:30:06,466 - INFO - Vídeo baixado com sucesso: C:\Users\Arthur\1_Projetos_Octopus\EAD\cae_transcricoes\arquivos_mp4\video.mp4
+2025-01-21 16:30:16,230 - INFO - Vídeo transcrito
+2025-01-21 16:30:19,747 - INFO - Vídeo baixado com sucesso: C:\Users\Arthur\1_Projetos_Octopus\EAD\cae_transcricoes\arquivos_mp4\video.mp4
+2025-01-21 16:30:26,934 - INFO - Vídeo transcrito
+2025-01-21 16:31:11,841 - INFO - Vídeo baixado com sucesso: C:\Users\Arthur\1_Projetos_Octopus\EAD\cae_transcricoes\arquivos_mp4\video.mp4
+2025-01-21 16:32:26,087 - INFO - Vídeo transcrito
+2025-01-21 16:32:30,967 - INFO - Vídeo baixado com sucesso: C:\Users\Arthur\1_Projetos_Octopus\EAD\cae_transcricoes\arquivos_mp4\video.mp4
+2025-01-21 16:32:39,004 - INFO - Vídeo transcrito
+2025-01-21 16:32:40,051 - INFO - Vídeo baixado com sucesso: C:\Users\Arthur\1_Projetos_Octopus\EAD\cae_transcricoes\arquivos_mp4\video.mp4
+2025-01-21 16:32:45,575 - INFO - Vídeo transcrito
+2025-01-21 16:32:49,011 - INFO - Vídeo baixado com sucesso: C:\Users\Arthur\1_Projetos_Octopus\EAD\cae_transcricoes\arquivos_mp4\video.mp4
+2025-01-21 16:33:02,018 - INFO - Vídeo transcrito
+2025-01-21 16:33:05,387 - INFO - Vídeo baixado com sucesso: C:\Users\Arthur\1_Projetos_Octopus\EAD\cae_transcricoes\arquivos_mp4\video.mp4
+2025-01-21 16:33:12,778 - INFO - Vídeo transcrito
+2025-01-21 16:33:18,126 - INFO - Vídeo baixado com sucesso: C:\Users\Arthur\1_Projetos_Octopus\EAD\cae_transcricoes\arquivos_mp4\video.mp4
+2025-01-21 16:33:27,679 - INFO - Vídeo transcrito
+2025-01-21 16:33:30,120 - INFO - Vídeo baixado com sucesso: C:\Users\Arthur\1_Projetos_Octopus\EAD\cae_transcricoes\arquivos_mp4\video.mp4
+2025-01-21 16:33:38,822 - INFO - Vídeo transcrito
+2025-01-21 16:33:43,268 - INFO - Vídeo baixado com sucesso: C:\Users\Arthur\1_Projetos_Octopus\EAD\cae_transcricoes\arquivos_mp4\video.mp4
+2025-01-21 16:33:58,921 - INFO - Vídeo transcrito
+2025-01-21 16:34:02,403 - INFO - Vídeo baixado com sucesso: C:\Users\Arthur\1_Projetos_Octopus\EAD\cae_transcricoes\arquivos_mp4\video.mp4
+2025-01-21 16:34:09,713 - INFO - Vídeo transcrito
+2025-01-21 16:34:10,886 - INFO - Vídeo baixado com sucesso: C:\Users\Arthur\1_Projetos_Octopus\EAD\cae_transcricoes\arquivos_mp4\video.mp4
+2025-01-21 16:34:17,737 - INFO - Vídeo transcrito
+2025-01-21 16:34:18,747 - INFO - Vídeo baixado com sucesso: C:\Users\Arthur\1_Projetos_Octopus\EAD\cae_transcricoes\arquivos_mp4\video.mp4
+2025-01-21 16:34:25,434 - INFO - Vídeo transcrito
+2025-01-21 16:34:32,185 - INFO - Vídeo baixado com sucesso: C:\Users\Arthur\1_Projetos_Octopus\EAD\cae_transcricoes\arquivos_mp4\video.mp4
+2025-01-21 16:35:45,406 - INFO - Vídeo transcrito
+2025-01-21 16:35:50,039 - INFO - Vídeo baixado com sucesso: C:\Users\Arthur\1_Projetos_Octopus\EAD\cae_transcricoes\arquivos_mp4\video.mp4
+2025-01-21 16:36:07,377 - INFO - Vídeo transcrito
+2025-01-21 16:36:11,893 - INFO - Vídeo baixado com sucesso: C:\Users\Arthur\1_Projetos_Octopus\EAD\cae_transcricoes\arquivos_mp4\video.mp4
+2025-01-21 16:36:20,743 - INFO - Vídeo transcrito
+2025-01-21 16:36:23,092 - INFO - Vídeo baixado com sucesso: C:\Users\Arthur\1_Projetos_Octopus\EAD\cae_transcricoes\arquivos_mp4\video.mp4
+2025-01-21 16:36:33,099 - INFO - Vídeo transcrito
+2025-01-21 16:36:34,429 - INFO - Vídeo baixado com sucesso: C:\Users\Arthur\1_Projetos_Octopus\EAD\cae_transcricoes\arquivos_mp4\video.mp4
+2025-01-21 16:36:41,217 - INFO - Vídeo transcrito
+2025-01-21 16:37:00,199 - INFO - Vídeo baixado com sucesso: C:\Users\Arthur\1_Projetos_Octopus\EAD\cae_transcricoes\arquivos_mp4\video.mp4
+2025-01-21 16:37:28,131 - INFO - Vídeo transcrito
+2025-01-21 16:37:29,189 - INFO - Vídeo baixado com sucesso: C:\Users\Arthur\1_Projetos_Octopus\EAD\cae_transcricoes\arquivos_mp4\video.mp4
+2025-01-21 16:37:35,876 - INFO - Vídeo transcrito
+2025-01-21 16:37:45,266 - INFO - Vídeo baixado com sucesso: C:\Users\Arthur\1_Projetos_Octopus\EAD\cae_transcricoes\arquivos_mp4\video.mp4
+2025-01-21 16:39:17,256 - INFO - Vídeo transcrito
+2025-01-21 16:39:20,475 - INFO - Vídeo baixado com sucesso: C:\Users\Arthur\1_Projetos_Octopus\EAD\cae_transcricoes\arquivos_mp4\video.mp4
+2025-01-21 16:39:27,375 - INFO - Vídeo transcrito
+2025-01-21 16:39:39,115 - INFO - Vídeo baixado com sucesso: C:\Users\Arthur\1_Projetos_Octopus\EAD\cae_transcricoes\arquivos_mp4\video.mp4
+2025-01-21 16:39:55,876 - INFO - Vídeo transcrito
+2025-01-21 16:39:57,797 - INFO - Vídeo baixado com sucesso: C:\Users\Arthur\1_Projetos_Octopus\EAD\cae_transcricoes\arquivos_mp4\video.mp4
+2025-01-21 16:40:13,225 - INFO - Vídeo transcrito
+2025-01-21 16:40:35,206 - INFO - Vídeo baixado com sucesso: C:\Users\Arthur\1_Projetos_Octopus\EAD\cae_transcricoes\arquivos_mp4\video.mp4
+2025-01-21 16:41:11,218 - INFO - Vídeo transcrito
+2025-01-21 16:41:13,500 - INFO - Vídeo baixado com sucesso: C:\Users\Arthur\1_Projetos_Octopus\EAD\cae_transcricoes\arquivos_mp4\video.mp4
+2025-01-21 16:41:20,574 - INFO - Vídeo transcrito
+2025-01-21 16:41:28,729 - INFO - Vídeo baixado com sucesso: C:\Users\Arthur\1_Projetos_Octopus\EAD\cae_transcricoes\arquivos_mp4\video.mp4
+2025-01-21 16:42:39,571 - INFO - Vídeo transcrito
+2025-01-21 16:43:00,443 - INFO - Vídeo baixado com sucesso: C:\Users\Arthur\1_Projetos_Octopus\EAD\cae_transcricoes\arquivos_mp4\video.mp4
+2025-01-21 16:43:29,908 - INFO - Vídeo transcrito
+2025-01-21 16:43:33,338 - INFO - Vídeo baixado com sucesso: C:\Users\Arthur\1_Projetos_Octopus\EAD\cae_transcricoes\arquivos_mp4\video.mp4
+2025-01-21 16:43:40,395 - INFO - Vídeo transcrito
+2025-01-21 16:44:22,349 - INFO - Vídeo baixado com sucesso: C:\Users\Arthur\1_Projetos_Octopus\EAD\cae_transcricoes\arquivos_mp4\video.mp4
+2025-01-21 16:45:17,853 - INFO - Vídeo transcrito
+2025-01-21 16:45:19,773 - INFO - Vídeo baixado com sucesso: C:\Users\Arthur\1_Projetos_Octopus\EAD\cae_transcricoes\arquivos_mp4\video.mp4
+2025-01-21 16:45:27,967 - INFO - Vídeo transcrito
+2025-01-21 16:45:32,899 - INFO - Vídeo baixado com sucesso: C:\Users\Arthur\1_Projetos_Octopus\EAD\cae_transcricoes\arquivos_mp4\video.mp4
+2025-01-21 16:45:40,821 - INFO - Vídeo transcrito
+2025-01-21 16:45:42,279 - INFO - Vídeo baixado com sucesso: C:\Users\Arthur\1_Projetos_Octopus\EAD\cae_transcricoes\arquivos_mp4\video.mp4
+2025-01-21 16:45:48,126 - INFO - Vídeo transcrito
+2025-01-21 16:45:49,156 - INFO - Vídeo baixado com sucesso: C:\Users\Arthur\1_Projetos_Octopus\EAD\cae_transcricoes\arquivos_mp4\video.mp4
+2025-01-21 16:45:57,492 - INFO - Vídeo transcrito
+2025-01-21 16:46:02,588 - INFO - Vídeo baixado com sucesso: C:\Users\Arthur\1_Projetos_Octopus\EAD\cae_transcricoes\arquivos_mp4\video.mp4
+2025-01-21 16:46:12,508 - INFO - Vídeo transcrito
+2025-01-21 16:46:21,607 - INFO - Vídeo baixado com sucesso: C:\Users\Arthur\1_Projetos_Octopus\EAD\cae_transcricoes\arquivos_mp4\video.mp4
+2025-01-21 16:46:38,712 - INFO - Vídeo transcrito
+2025-01-21 16:46:41,157 - INFO - Vídeo baixado com sucesso: C:\Users\Arthur\1_Projetos_Octopus\EAD\cae_transcricoes\arquivos_mp4\video.mp4
+2025-01-21 16:46:49,743 - INFO - Vídeo transcrito
+2025-01-21 16:46:52,368 - INFO - Vídeo baixado com sucesso: C:\Users\Arthur\1_Projetos_Octopus\EAD\cae_transcricoes\arquivos_mp4\video.mp4
+2025-01-21 16:46:59,763 - INFO - Vídeo transcrito
+2025-01-21 16:47:02,225 - INFO - Vídeo baixado com sucesso: C:\Users\Arthur\1_Projetos_Octopus\EAD\cae_transcricoes\arquivos_mp4\video.mp4
+2025-01-21 16:47:21,113 - INFO - Vídeo transcrito
+2025-01-21 16:47:26,044 - INFO - Vídeo baixado com sucesso: C:\Users\Arthur\1_Projetos_Octopus\EAD\cae_transcricoes\arquivos_mp4\video.mp4
+2025-01-21 16:48:02,727 - INFO - Vídeo transcrito
+2025-01-21 16:48:06,754 - INFO - Vídeo baixado com sucesso: C:\Users\Arthur\1_Projetos_Octopus\EAD\cae_transcricoes\arquivos_mp4\video.mp4
+2025-01-21 16:48:15,581 - INFO - Vídeo transcrito
+2025-01-21 16:48:40,432 - INFO - Vídeo baixado com sucesso: C:\Users\Arthur\1_Projetos_Octopus\EAD\cae_transcricoes\arquivos_mp4\video.mp4
+2025-01-21 16:49:16,957 - INFO - Vídeo transcrito
+2025-01-21 16:49:19,724 - INFO - Vídeo baixado com sucesso: C:\Users\Arthur\1_Projetos_Octopus\EAD\cae_transcricoes\arquivos_mp4\video.mp4
+2025-01-21 16:49:26,027 - INFO - Vídeo transcrito
+2025-01-21 16:49:48,553 - INFO - Vídeo baixado com sucesso: C:\Users\Arthur\1_Projetos_Octopus\EAD\cae_transcricoes\arquivos_mp4\video.mp4
+2025-01-21 16:50:23,152 - INFO - Vídeo transcrito
+2025-01-21 16:50:43,356 - INFO - Vídeo baixado com sucesso: C:\Users\Arthur\1_Projetos_Octopus\EAD\cae_transcricoes\arquivos_mp4\video.mp4
+2025-01-21 16:51:10,436 - INFO - Vídeo transcrito
+2025-01-21 16:51:12,109 - INFO - Vídeo baixado com sucesso: C:\Users\Arthur\1_Projetos_Octopus\EAD\cae_transcricoes\arquivos_mp4\video.mp4
+2025-01-21 16:51:18,379 - INFO - Vídeo transcrito
+2025-01-21 16:51:25,353 - INFO - Vídeo baixado com sucesso: C:\Users\Arthur\1_Projetos_Octopus\EAD\cae_transcricoes\arquivos_mp4\video.mp4
+2025-01-21 16:51:36,772 - INFO - Vídeo transcrito
+2025-01-21 16:51:46,565 - INFO - Vídeo baixado com sucesso: C:\Users\Arthur\1_Projetos_Octopus\EAD\cae_transcricoes\arquivos_mp4\video.mp4
+2025-01-21 16:52:07,640 - INFO - Vídeo transcrito
+2025-01-21 16:52:19,498 - INFO - Vídeo baixado com sucesso: C:\Users\Arthur\1_Projetos_Octopus\EAD\cae_transcricoes\arquivos_mp4\video.mp4
+2025-01-21 16:53:11,216 - INFO - Vídeo transcrito
+2025-01-21 16:53:12,722 - INFO - Vídeo baixado com sucesso: C:\Users\Arthur\1_Projetos_Octopus\EAD\cae_transcricoes\arquivos_mp4\video.mp4
+2025-01-21 16:53:25,445 - INFO - Vídeo transcrito
+2025-01-21 16:53:32,551 - INFO - Vídeo baixado com sucesso: C:\Users\Arthur\1_Projetos_Octopus\EAD\cae_transcricoes\arquivos_mp4\video.mp4
+2025-01-21 16:53:54,271 - INFO - Vídeo transcrito
+2025-01-21 16:53:56,122 - INFO - Vídeo baixado com sucesso: C:\Users\Arthur\1_Projetos_Octopus\EAD\cae_transcricoes\arquivos_mp4\video.mp4
+2025-01-21 16:54:06,853 - INFO - Vídeo transcrito
+2025-01-21 16:54:09,660 - INFO - Vídeo baixado com sucesso: C:\Users\Arthur\1_Projetos_Octopus\EAD\cae_transcricoes\arquivos_mp4\video.mp4
+2025-01-21 16:54:31,869 - INFO - Vídeo transcrito
+2025-01-21 16:54:33,625 - INFO - Vídeo baixado com sucesso: C:\Users\Arthur\1_Projetos_Octopus\EAD\cae_transcricoes\arquivos_mp4\video.mp4
+2025-01-21 16:54:42,841 - INFO - Vídeo transcrito
+2025-01-21 16:54:45,393 - INFO - Vídeo baixado com sucesso: C:\Users\Arthur\1_Projetos_Octopus\EAD\cae_transcricoes\arquivos_mp4\video.mp4
+2025-01-21 16:54:58,107 - INFO - Vídeo transcrito
+2025-01-21 16:55:01,833 - INFO - Vídeo baixado com sucesso: C:\Users\Arthur\1_Projetos_Octopus\EAD\cae_transcricoes\arquivos_mp4\video.mp4
+2025-01-21 16:55:10,293 - INFO - Vídeo transcrito
+2025-01-21 16:55:14,448 - INFO - Vídeo baixado com sucesso: C:\Users\Arthur\1_Projetos_Octopus\EAD\cae_transcricoes\arquivos_mp4\video.mp4
+2025-01-21 16:55:29,652 - INFO - Vídeo transcrito
+2025-01-21 16:55:38,129 - INFO - Vídeo baixado com sucesso: C:\Users\Arthur\1_Projetos_Octopus\EAD\cae_transcricoes\arquivos_mp4\video.mp4
+2025-01-21 16:56:36,019 - INFO - Vídeo transcrito
+2025-01-21 16:56:40,059 - INFO - Vídeo baixado com sucesso: C:\Users\Arthur\1_Projetos_Octopus\EAD\cae_transcricoes\arquivos_mp4\video.mp4
+2025-01-21 16:56:50,741 - INFO - Vídeo transcrito
+2025-01-21 16:56:55,176 - INFO - Vídeo baixado com sucesso: C:\Users\Arthur\1_Projetos_Octopus\EAD\cae_transcricoes\arquivos_mp4\video.mp4
+2025-01-21 16:57:03,869 - INFO - Vídeo transcrito
+2025-01-21 16:57:24,273 - INFO - Vídeo baixado com sucesso: C:\Users\Arthur\1_Projetos_Octopus\EAD\cae_transcricoes\arquivos_mp4\video.mp4
+2025-01-21 16:58:55,405 - INFO - Vídeo transcrito
+2025-01-21 16:58:57,798 - INFO - Vídeo baixado com sucesso: C:\Users\Arthur\1_Projetos_Octopus\EAD\cae_transcricoes\arquivos_mp4\video.mp4
+2025-01-21 16:59:07,478 - INFO - Vídeo transcrito
+2025-01-21 16:59:08,959 - INFO - Vídeo baixado com sucesso: C:\Users\Arthur\1_Projetos_Octopus\EAD\cae_transcricoes\arquivos_mp4\video.mp4
+2025-01-21 16:59:15,657 - INFO - Vídeo transcrito
+2025-01-21 16:59:18,891 - INFO - Vídeo baixado com sucesso: C:\Users\Arthur\1_Projetos_Octopus\EAD\cae_transcricoes\arquivos_mp4\video.mp4
+2025-01-21 16:59:34,628 - INFO - Vídeo transcrito
+2025-01-21 16:59:36,081 - INFO - Vídeo baixado com sucesso: C:\Users\Arthur\1_Projetos_Octopus\EAD\cae_transcricoes\arquivos_mp4\video.mp4
+2025-01-21 16:59:44,942 - INFO - Vídeo transcrito
+2025-01-21 16:59:49,575 - INFO - Vídeo baixado com sucesso: C:\Users\Arthur\1_Projetos_Octopus\EAD\cae_transcricoes\arquivos_mp4\video.mp4
+2025-01-21 17:00:00,479 - INFO - Vídeo transcrito
+2025-01-21 17:00:05,403 - INFO - Vídeo baixado com sucesso: C:\Users\Arthur\1_Projetos_Octopus\EAD\cae_transcricoes\arquivos_mp4\video.mp4
+2025-01-21 17:00:14,101 - INFO - Vídeo transcrito
+2025-01-21 17:00:17,292 - INFO - Vídeo baixado com sucesso: C:\Users\Arthur\1_Projetos_Octopus\EAD\cae_transcricoes\arquivos_mp4\video.mp4
+2025-01-21 17:00:32,745 - INFO - Vídeo transcrito
+2025-01-21 17:00:37,909 - INFO - Vídeo baixado com sucesso: C:\Users\Arthur\1_Projetos_Octopus\EAD\cae_transcricoes\arquivos_mp4\video.mp4
+2025-01-21 17:00:45,201 - INFO - Vídeo transcrito
+2025-01-21 17:00:49,468 - INFO - Vídeo baixado com sucesso: C:\Users\Arthur\1_Projetos_Octopus\EAD\cae_transcricoes\arquivos_mp4\video.mp4
+2025-01-21 17:00:56,112 - INFO - Vídeo transcrito
+2025-01-21 17:00:56,696 - INFO - Vídeo baixado com sucesso: C:\Users\Arthur\1_Projetos_Octopus\EAD\cae_transcricoes\arquivos_mp4\video.mp4
+2025-01-21 17:01:03,108 - INFO - Vídeo transcrito
+2025-01-21 17:01:42,852 - INFO - Vídeo baixado com sucesso: C:\Users\Arthur\1_Projetos_Octopus\EAD\cae_transcricoes\arquivos_mp4\video.mp4
+2025-01-21 17:02:47,586 - INFO - Vídeo transcrito
+2025-01-21 17:03:00,067 - INFO - Vídeo baixado com sucesso: C:\Users\Arthur\1_Projetos_Octopus\EAD\cae_transcricoes\arquivos_mp4\video.mp4
+2025-01-21 17:03:16,841 - INFO - Vídeo transcrito
+2025-01-21 17:03:19,217 - INFO - Vídeo baixado com sucesso: C:\Users\Arthur\1_Projetos_Octopus\EAD\cae_transcricoes\arquivos_mp4\video.mp4
+2025-01-21 17:03:27,515 - INFO - Vídeo transcrito
+2025-01-21 17:03:30,080 - INFO - Vídeo baixado com sucesso: C:\Users\Arthur\1_Projetos_Octopus\EAD\cae_transcricoes\arquivos_mp4\video.mp4
+2025-01-21 17:03:39,644 - INFO - Vídeo transcrito
+2025-01-21 17:03:42,428 - INFO - Vídeo baixado com sucesso: C:\Users\Arthur\1_Projetos_Octopus\EAD\cae_transcricoes\arquivos_mp4\video.mp4
+2025-01-21 17:03:49,014 - INFO - Vídeo transcrito
+2025-01-21 17:03:53,143 - INFO - Vídeo baixado com sucesso: C:\Users\Arthur\1_Projetos_Octopus\EAD\cae_transcricoes\arquivos_mp4\video.mp4
+2025-01-21 17:04:20,271 - INFO - Vídeo transcrito
+2025-01-21 17:04:21,723 - INFO - Vídeo baixado com sucesso: C:\Users\Arthur\1_Projetos_Octopus\EAD\cae_transcricoes\arquivos_mp4\video.mp4
+2025-01-21 17:04:28,354 - INFO - Vídeo transcrito
+2025-01-21 17:04:36,669 - INFO - Vídeo baixado com sucesso: C:\Users\Arthur\1_Projetos_Octopus\EAD\cae_transcricoes\arquivos_mp4\video.mp4
+2025-01-21 17:05:52,209 - INFO - Vídeo transcrito
+2025-01-21 17:05:53,776 - INFO - Vídeo baixado com sucesso: C:\Users\Arthur\1_Projetos_Octopus\EAD\cae_transcricoes\arquivos_mp4\video.mp4
+2025-01-21 17:05:59,399 - INFO - Vídeo transcrito
+2025-01-21 17:06:10,166 - INFO - Vídeo baixado com sucesso: C:\Users\Arthur\1_Projetos_Octopus\EAD\cae_transcricoes\arquivos_mp4\video.mp4
+2025-01-21 17:06:23,421 - INFO - Vídeo transcrito
+2025-01-21 17:06:30,637 - INFO - Vídeo baixado com sucesso: C:\Users\Arthur\1_Projetos_Octopus\EAD\cae_transcricoes\arquivos_mp4\video.mp4
+2025-01-21 17:06:42,724 - INFO - Vídeo transcrito
+2025-01-21 17:06:55,185 - INFO - Vídeo baixado com sucesso: C:\Users\Arthur\1_Projetos_Octopus\EAD\cae_transcricoes\arquivos_mp4\video.mp4
+2025-01-21 17:07:22,983 - INFO - Vídeo transcrito
+2025-01-21 17:07:25,702 - INFO - Vídeo baixado com sucesso: C:\Users\Arthur\1_Projetos_Octopus\EAD\cae_transcricoes\arquivos_mp4\video.mp4
+2025-01-21 17:07:31,412 - INFO - Vídeo transcrito
+2025-01-21 17:08:13,456 - INFO - Vídeo baixado com sucesso: C:\Users\Arthur\1_Projetos_Octopus\EAD\cae_transcricoes\arquivos_mp4\video.mp4
+2025-01-21 17:09:11,258 - INFO - Vídeo transcrito
+2025-01-21 17:09:16,665 - INFO - Vídeo baixado com sucesso: C:\Users\Arthur\1_Projetos_Octopus\EAD\cae_transcricoes\arquivos_mp4\video.mp4
+2025-01-21 17:09:39,994 - INFO - Vídeo transcrito
+2025-01-21 17:09:41,910 - INFO - Vídeo baixado com sucesso: C:\Users\Arthur\1_Projetos_Octopus\EAD\cae_transcricoes\arquivos_mp4\video.mp4
+2025-01-21 17:09:47,643 - INFO - Vídeo transcrito
+2025-01-21 17:10:15,608 - INFO - Vídeo baixado com sucesso: C:\Users\Arthur\1_Projetos_Octopus\EAD\cae_transcricoes\arquivos_mp4\video.mp4
+2025-01-21 17:11:02,849 - INFO - Vídeo transcrito
+2025-01-21 17:11:05,668 - INFO - Vídeo baixado com sucesso: C:\Users\Arthur\1_Projetos_Octopus\EAD\cae_transcricoes\arquivos_mp4\video.mp4
+2025-01-21 17:11:13,633 - INFO - Vídeo transcrito
+2025-01-21 17:11:16,031 - INFO - Vídeo baixado com sucesso: C:\Users\Arthur\1_Projetos_Octopus\EAD\cae_transcricoes\arquivos_mp4\video.mp4
+2025-01-21 17:11:23,662 - INFO - Vídeo transcrito
+2025-01-21 17:11:26,764 - INFO - Vídeo baixado com sucesso: C:\Users\Arthur\1_Projetos_Octopus\EAD\cae_transcricoes\arquivos_mp4\video.mp4
+2025-01-21 17:11:32,506 - INFO - Vídeo transcrito
+2025-01-21 17:11:35,328 - INFO - Vídeo baixado com sucesso: C:\Users\Arthur\1_Projetos_Octopus\EAD\cae_transcricoes\arquivos_mp4\video.mp4
+2025-01-21 17:11:42,243 - INFO - Vídeo transcrito
+2025-01-21 17:11:43,611 - INFO - Vídeo baixado com sucesso: C:\Users\Arthur\1_Projetos_Octopus\EAD\cae_transcricoes\arquivos_mp4\video.mp4
+2025-01-21 17:11:51,458 - INFO - Vídeo transcrito
+2025-01-21 17:11:54,542 - INFO - Vídeo baixado com sucesso: C:\Users\Arthur\1_Projetos_Octopus\EAD\cae_transcricoes\arquivos_mp4\video.mp4
+2025-01-21 17:12:07,923 - INFO - Vídeo transcrito
+2025-01-21 17:12:09,251 - INFO - Vídeo baixado com sucesso: C:\Users\Arthur\1_Projetos_Octopus\EAD\cae_transcricoes\arquivos_mp4\video.mp4
+2025-01-21 17:12:16,089 - INFO - Vídeo transcrito
+2025-01-21 17:12:18,622 - INFO - Vídeo baixado com sucesso: C:\Users\Arthur\1_Projetos_Octopus\EAD\cae_transcricoes\arquivos_mp4\video.mp4
+2025-01-21 17:12:24,538 - INFO - Vídeo transcrito
+2025-01-21 17:12:29,905 - INFO - Vídeo baixado com sucesso: C:\Users\Arthur\1_Projetos_Octopus\EAD\cae_transcricoes\arquivos_mp4\video.mp4
+2025-01-21 17:12:44,797 - INFO - Vídeo transcrito
+2025-01-21 17:12:49,118 - INFO - Vídeo baixado com sucesso: C:\Users\Arthur\1_Projetos_Octopus\EAD\cae_transcricoes\arquivos_mp4\video.mp4
+2025-01-21 17:13:16,072 - INFO - Vídeo transcrito
+2025-01-21 17:13:18,246 - INFO - Vídeo baixado com sucesso: C:\Users\Arthur\1_Projetos_Octopus\EAD\cae_transcricoes\arquivos_mp4\video.mp4
+2025-01-21 17:13:25,312 - INFO - Vídeo transcrito
+2025-01-21 17:13:46,577 - INFO - Vídeo baixado com sucesso: C:\Users\Arthur\1_Projetos_Octopus\EAD\cae_transcricoes\arquivos_mp4\video.mp4
+2025-01-21 17:14:21,615 - INFO - Vídeo transcrito
+2025-01-21 17:14:23,708 - INFO - Vídeo baixado com sucesso: C:\Users\Arthur\1_Projetos_Octopus\EAD\cae_transcricoes\arquivos_mp4\video.mp4
+2025-01-21 17:14:29,920 - INFO - Vídeo transcrito
+2025-01-21 17:14:37,386 - INFO - Vídeo baixado com sucesso: C:\Users\Arthur\1_Projetos_Octopus\EAD\cae_transcricoes\arquivos_mp4\video.mp4
+2025-01-21 17:15:04,529 - INFO - Vídeo transcrito
+2025-01-21 17:15:12,167 - INFO - Vídeo baixado com sucesso: C:\Users\Arthur\1_Projetos_Octopus\EAD\cae_transcricoes\arquivos_mp4\video.mp4
+2025-01-21 17:15:33,373 - INFO - Vídeo transcrito
+2025-01-21 17:15:35,262 - INFO - Vídeo baixado com sucesso: C:\Users\Arthur\1_Projetos_Octopus\EAD\cae_transcricoes\arquivos_mp4\video.mp4
+2025-01-21 17:15:40,345 - INFO - Vídeo transcrito
+2025-01-21 17:15:40,345 - INFO - ====== WebDriver manager ======
+2025-01-21 17:15:40,722 - INFO - Get LATEST chromedriver version for google-chrome
+2025-01-21 17:15:40,738 - INFO - Get LATEST chromedriver version for google-chrome
+2025-01-21 17:15:40,738 - INFO - Driver [C:\Users\Usuário\.wdm\drivers\chromedriver\win64\131.0.6778.264\chromedriver-win32/chromedriver.exe] found in cache
+2025-01-21 17:16:28,098 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-01-21 17:16:28,336 - WARNING - Falha ao enviar resumo | Erro: 400 Client Error:  for url: http://api.octopustax.com.br/informative/v1/news
+2025-01-21 17:16:28,336 - INFO - O tempo de execução foi de 51.57minutos!
+2025-01-21 17:16:28,336 - INFO - ---------------------------------------Fim da execução---------------------------------------

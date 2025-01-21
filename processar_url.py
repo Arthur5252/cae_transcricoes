@@ -21,16 +21,22 @@ def extrair_urls(url):
     navegador = webdriver.Chrome(service=service, options=chrome_options)
     navegador.get(url)
 
-    data_atual = datetime.now().strftime('%d/%m/%Y')
+    #data_atual = datetime.now().strftime('%d/%m/%Y')
+    data_atual="17-12-2024"
     time.sleep(2)
-    navegador.find_elements(By.CLASS_NAME, 'situacao-reuniao--realizada')[0].click()
-    time.sleep(1)
-    valida = navegador.find_elements(By.CLASS_NAME, 'px-2')[0].text
-    if valida.replace(' às 10h', '') == data_atual:
+    navegador.find_element(By.ID, 'btn_picker_mes_anterior').click()
+    time.sleep(2)
+    valida = navegador.find_elements(By.CLASS_NAME, 'painel-data-hora--data')[0].text
+    print(valida)
+    realizada=navegador.find_element(By.CLASS_NAME,'situacao-reuniao--realizada').get_attribute('title')
+    print(realizada)
+    if valida.replace('/','-')+'-2024' == data_atual and realizada == 'Realizada':
+        print('entrou no if')
         time.sleep(2)
-        trechos = navegador.find_elements(By.CLASS_NAME, 'sf-atv-cmss-item-video')
+        navegador.find_element(By.CLASS_NAME,'painel-reuniao-corpo-texto').click()
+        trechos = navegador.find_elements(By.CLASS_NAME, 'sf-js-player-reuniao--link-play')
         for i in trechos:
-            lista_urls.append(i.find_element(By.TAG_NAME, 'a').get_attribute('href'))
+            lista_urls.append(i.get_attribute('href'))
         return lista_urls
     else:
         return 'Não é a edição mais atual'
