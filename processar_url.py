@@ -20,23 +20,29 @@ def extrair_urls(url):
     service = Service(ChromeDriverManager().install())
     navegador = webdriver.Chrome(service=service, options=chrome_options)
     navegador.get(url)
+    data_atual = datetime.now().strftime('%d/%m/%Y')
+    time.sleep(2)
 
-    #data_atual = datetime.now().strftime('%d/%m/%Y')
-    data_atual="17-12-2024"
-    time.sleep(2)
-    navegador.find_element(By.ID, 'btn_picker_mes_anterior').click()
-    time.sleep(2)
-    valida = navegador.find_elements(By.CLASS_NAME, 'painel-data-hora--data')[0].text
-    print(valida)
-    realizada=navegador.find_element(By.CLASS_NAME,'situacao-reuniao--realizada').get_attribute('title')
-    print(realizada)
-    if valida.replace('/','-')+'-2024' == data_atual and realizada == 'Realizada':
+    try:
+        valida = navegador.find_elements(By.CLASS_NAME, 'painel-data-hora--data')[0].text
+    except IndexError:
+        print("!!!")
+        return 'Não houve reunião no dia'
+
+    try:
+        realizada = navegador.find_element(By.CLASS_NAME, 'situacao-reuniao--realizada').get_attribute('title')
+    except Exception as e:
+        return f"Erro ao verificar o status da reunião: {str(e)}"
+
+    if valida.replace('/', '-') + '-2024' == data_atual and realizada == 'Realizada':
         print('entrou no if')
         time.sleep(2)
-        navegador.find_element(By.CLASS_NAME,'painel-reuniao-corpo-texto').click()
+        navegador.find_element(By.CLASS_NAME, 'painel-reuniao-corpo-texto').click()
         trechos = navegador.find_elements(By.CLASS_NAME, 'sf-js-player-reuniao--link-play')
         for i in trechos:
             lista_urls.append(i.get_attribute('href'))
         return lista_urls
     else:
         return 'Não é a edição mais atual'
+
+extrair_urls(url='https://legis.senado.leg.br/atividade/comissoes/comissao/38/')
